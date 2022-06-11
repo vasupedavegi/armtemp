@@ -22,3 +22,10 @@ steps:
     csmFile: 'template.json'
     csmParametersFile: 'parameter.json'
     deploymentMode: 'Incremental'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'NUnit'
+    testResultsFiles: '**/TEST-*.xml'
+    mergeTestResults: true
+    testRunTitle: 'testnandu'
