@@ -18,5 +18,6 @@ pool:
     resourceGroupName: 'javaapprg'
     location: 'West US'
     templateLocation: 'Linked artifact'
+    csmFile: 'template.json'
+    csmParametersFile: 'parameter.json'
     deploymentMode: 'Incremental'
-    
