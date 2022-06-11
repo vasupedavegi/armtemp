@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "Test-Vnet1"
+    },
+    "vnetAddressPrefix": {
+      "value": "192.168.0.0/16"
+    },
+    "subnet1Prefix": {
+      "value": "192.168.0.0/24"
+    },
+    "subnet1Name": {
+      "value": "test-subnet1"
+    },
+    "subnet2Prefix": {
+      "value": "192.168.1.0/24"
+    },
+    "subnet2Name": {
+      "value": "test-subnet2"
+    },
+    "subnet3Prefix": {
+      "value": "192.168.2.0/24"
+    },
+    "subnet3Name": {
+      "value": "test-subnet3"
+    },
+    "location": {
+      "value": "westus"
+    }
+  }
+}
